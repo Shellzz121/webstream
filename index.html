@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Chat Web App</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <main>
+        <button id="join-btn">Join Stream</button>
+
+        <div id="stream-wrapper">
+            <div id="video-streams"></div>
+    
+            <div id="stream-controls">
+                <div class="icon-wrapper">
+                    <img class="control-icon" id="camera-btn" src="video.svg">
+                    <p>Cam</p>
+                </div>
+                <div class="icon-wrapper">
+                    <img class="control-icon" id="mic-btn" src="microphone.svg">
+                    <p>Mic</p>
+                </div>
+                <div class="icon-wrapper">
+                    <img class="control-icon" id="leave-btn" src="leave.svg">
+                    <p>Leave</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+<script src="AgoraRTC_N-4.8.1.js"></script>
+<!--<script src="https://download.agora.io/sdk/release/AgoraRTC_N.js"></script>-->
+<script src="main.js"></script>
+<script>
+    alert('You are viewing an unofficial website.. not approved!')
+</script>
+</html>
